@@ -28,7 +28,7 @@ body {
 .main-content {
   background: green;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .news,
@@ -51,6 +51,7 @@ body {
 
 .personel {
   background: violet;
+  margin-right: 50px;
 }
 
 .footer {

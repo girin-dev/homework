@@ -51,7 +51,7 @@ body {
 
 .personel {
   background: violet;
-  margin-right: 50px;
+  position: relative;
 }
 
 .footer {

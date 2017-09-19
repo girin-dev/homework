@@ -1,0 +1,31 @@
+.wrapper {
+  position: relative;
+}
+
+.logo {
+  box-sizing: border-box;
+  height: 400px;
+  width: 400px;
+  background: #aaa url("img/sprite.png") no-repeat;
+  background-position: -18px 10px;
+  padding-top: 400px;
+  overflow: hidden;
+}
+
+.prev,
+.next {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: url("img/sprite.png") no-repeat;
+  border: 0;
+  width: 19px;
+  height: 0;
+  padding: 19px 0 0 0;
+  overflow: hidden;
+}
+
+.next {
+  left: 35px;
+  background-position: 0 -18px;
+}

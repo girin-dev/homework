@@ -1,0 +1,40 @@
+@import url("./reset.css");
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 300px;
+  margin: 100px auto;
+}
+
+.sliding {
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  height: 60px;
+  overflow: hidden;
+  transition: height 1s ease 0s;
+}
+
+.sliding-list li {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.sliding-list li:first-child {
+  padding-top: 20px;
+  background: skyblue;
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sliding-list li:last-child {
+  padding-bottom: 20px;
+}
+
+.sliding:hover,
+.sliding:focus {
+  height: 300px
+}
